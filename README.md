@@ -1,0 +1,1 @@
+# free_local_reranker_model_ms-marco-MiniLM-L-12-v2
