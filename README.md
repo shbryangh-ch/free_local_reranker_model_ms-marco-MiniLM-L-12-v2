@@ -109,17 +109,6 @@ title BAAIbge-reranker
 
 ---
 
-## 📁 專案結構
-
-```
-.
-├── app.py                 # 主程式
-├── requirements.txt       # 依賴列表
-├── cache/                 # 模型快取目錄（自動產生）
-└── README.md
-```
-
----
 
 ## ⚙️ 配置說明
 
@@ -143,11 +132,6 @@ ranker = Ranker(
 
 ---
 
-## 🐳 Docker 部署（選用）
-
-如需 Docker 版本，請告訴我，我可以幫你撰寫 `Dockerfile` 和 `docker-compose.yml`。
-
----
 
 ## 📄 License
 
