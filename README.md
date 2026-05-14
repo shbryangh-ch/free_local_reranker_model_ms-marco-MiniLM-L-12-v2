@@ -38,8 +38,6 @@ pip install fastapi uvicorn flashrank python-multipart
 uvicorn py檔案名稱:app --host 0.0.0.0 --port 8000 --reload
 ```
 
-服務將運行於：`http://localhost:8000`
-
 ---
 
 ## 📡 API 使用
