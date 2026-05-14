@@ -108,9 +108,9 @@ uvicorn py檔案名稱:app --host 0.0.0.0 --port 8001 --reload
 方便同時管理多個 server：
 
 ```bash
-title BAAIbge-reranker
+title msmarco_reranker
 ```
-#通常是在開太多cmd視窗的時候可以用，使用後該視窗的標題會改成BAAIbge-reranker
+#通常是在開太多cmd視窗的時候可以用，使用後該視窗的標題會改成msmarco_reranker
 
 ---
 
