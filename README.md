@@ -20,7 +20,14 @@ git clone https://github.com/你的帳號/flashrank-reranker.git
 cd flashrank-reranker
 ```
 
-### 2. 安裝依賴
+### 2. 虛擬環境創建和啟動
+```bash
+conda create -n msmarco_reranker_API
+conda activate msmarco_reranker_API
+```
+
+
+### 3. 安裝依賴
 
 ```bash
 pip install fastapi uvicorn flashrank python-multipart
