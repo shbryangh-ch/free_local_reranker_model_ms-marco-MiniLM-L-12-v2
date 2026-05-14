@@ -35,7 +35,7 @@ pip install fastapi uvicorn flashrank python-multipart
 ## 🚀 快速啟動
 
 ```bash
-uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+uvicorn py檔案名稱:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 服務將運行於：`http://localhost:8000`
