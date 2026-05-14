@@ -119,7 +119,7 @@ title msmarco_reranker
 
 ## ⚙️ 配置說明
 
-可在 `py檔案名稱.py` 中調整的參數：
+可在 `py檔案名稱.py` 中調整的參數： #py檔案在release裡面
 
 ```python
 ranker = Ranker(
