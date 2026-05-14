@@ -21,11 +21,7 @@ cd flashrank-reranker
 ```
 
 ### 2. 安裝依賴
-```bash
-pip install -r requirements.txt
-```
 
-或手動安裝：
 ```bash
 pip install fastapi uvicorn flashrank python-multipart
 ```
