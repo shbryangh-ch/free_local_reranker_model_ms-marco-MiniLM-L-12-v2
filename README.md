@@ -112,7 +112,7 @@ title BAAIbge-reranker
 
 ## ⚙️ 配置說明
 
-可在 `msmarco_FlashRankReranker_server_v4.py` 中調整的參數：
+可在 `py檔案名稱.py` 中調整的參數：
 
 ```python
 ranker = Ranker(
