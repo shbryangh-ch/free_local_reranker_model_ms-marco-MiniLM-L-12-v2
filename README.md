@@ -7,10 +7,8 @@
 ## ✨ 特點
 
 - **極致輕量**：使用 FlashRank（ONNX 加速），模型僅約 100MB
-- **相容 Dify**：與原 BGE reranker 輸出格式一致，可直接替換
 - **快速部署**：FastAPI + Uvicorn，一鍵啟動
 - **支援中文**：ms-marco-MiniLM-L-12-v2 對中英混合查詢有良好表現
-- **本地運行**：無需 GPU，適合自託管環境
 
 ---
 
