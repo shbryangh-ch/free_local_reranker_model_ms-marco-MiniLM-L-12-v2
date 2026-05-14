@@ -84,14 +84,36 @@ uvicorn app:app --host 0.0.0.0 --port 8000 --reload
 
 ---
 
-## 🔧 Dify 串接設定
 
-在 Dify 的 **Reranker** 模組中設定：
+# 🔗 Dify / RAG 整合方式
 
-- **Type**：`API`
-- **Endpoint**：`http://你的伺服器IP:8000/rerank`
-- **API Key**：可留空（本服務目前未實作認證）
-- **Model Name**：可任意填寫（不影響）
+可將此 API 接到 Dify 的模型供應商裡面的Local AI：
+<img width="676" height="486" alt="圖片" src="https://github.com/user-attachments/assets/fa3a5ec1-6df9-48df-93ee-731c05260589" />
+
+點按新增模型
+
+
+<img width="407" height="290" alt="圖片" src="https://github.com/user-attachments/assets/551b0346-191e-4732-ac23-d4de1e84cb5a" />
+
+* Server url: `http://your-ip:8010`
+
+如果上面這個Server url出錯試試看這個
+* Server url: `http://your-ip:8010/rerank`
+
+如果你的自託管dify是裝在docker上面，your-ip用host.docker.internal
+
+---
+
+# 視窗標題（可選）
+
+方便同時管理多個 server：
+
+```bash
+title BAAIbge-reranker
+```
+#通常是在開太多cmd視窗的時候可以用，使用後該視窗的標題會改成BAAIbge-reranker
+
+---
 
 ---
 
