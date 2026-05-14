@@ -31,7 +31,7 @@ pip install fastapi uvicorn flashrank python-multipart
 ## 🚀 快速啟動
 
 ```bash
-uvicorn py檔案名稱:app --host 0.0.0.0 --port 8000 --reload
+uvicorn py檔案名稱:app --host 0.0.0.0 --port 8001 --reload
 ```
 
 ---
@@ -87,10 +87,10 @@ uvicorn py檔案名稱:app --host 0.0.0.0 --port 8000 --reload
 
 <img width="407" height="290" alt="圖片" src="https://github.com/user-attachments/assets/551b0346-191e-4732-ac23-d4de1e84cb5a" />
 
-* Server url: `http://your-ip:8010`
+* Server url: `http://your-ip:8001`
 
 如果上面這個Server url出錯試試看這個
-* Server url: `http://your-ip:8010/rerank`
+* Server url: `http://your-ip:8001/rerank`
 
 如果你的自託管dify是裝在docker上面，your-ip用host.docker.internal
 
